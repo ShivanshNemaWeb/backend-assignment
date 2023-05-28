@@ -1,0 +1,19 @@
+### start the server by `node server.js`
+
+### Use Postman or Curl to test the APIs 
+
+1. ### Initialize the database -
+`http://localhost:5000/initialize` (GET Request)
+
+2. ### Statistics API - 
+ `http://localhost:5000/statistics/:{YEAR}-{MONTH}` (GET Request)
+  eg.- `http://localhost:5000/statistics/:2022-07`
+
+3. ### Bar Chart API - 
+ `http://localhost:5000/bar-chart/:{YEAR}-{MONTH}` (GET Request)
+  eg.- `http://localhost:5000/bar-chart/:2022-07`
+
+4. ### Combined data API -
+  `http://localhost:5000/combined-data?month={YEAR}-{MONTH}` (GET Request)
+  eg.- `http://localhost:5000/combined-data?month=2022-07`
+  
